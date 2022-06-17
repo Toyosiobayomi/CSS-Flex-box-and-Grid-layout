@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+main{
+    width: 60%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+main div{
+    height: 400px;
+    padding: 40px;
+}
+main div span{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: rgba(0,0,0,.3);
+    padding: 3px 7px;
+    border-radius: 50%;
+}
+main div span i{
+    margin-right: -14px;
+    color: #ccc;
+}
+main div:nth-child(1){
+    background-color: rgb(216, 112, 37);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+main div:nth-child(2){
+    background-color: rgb(34, 145, 145);
+}
+main div:nth-child(3){
+    background-color: rgb(8, 68, 63);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main div h3{
+    font-size: 1.6rem;
+    color: #ccc;
+    font-family: tahoma;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+main div p{
+    font-size: .8rem;
+    color: #ccc;
+    font-family: tahoma;
+    line-height: 1.8;
+}
+main div button{
+    width: 134px;
+    margin-top: 60px;
+    font-family: tahoma;
+    background-color: #ccc;
+    outline: none;
+    border: none;
+    padding: 12px 14px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+main div .btn1{
+    color: rgb(216, 112, 37);
+}
+main div .btn2{
+    color: rgb(34, 145, 145);
+}
+main div .btn3{
+    color: rgb(8, 68, 63);
+}
